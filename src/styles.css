@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+:root {
+  --font-one: "ZCOOL KuaiLe", cursive;
+  --font-two: "Rampart One", cursive;
+  --font-three: "Montserrat", sans-serif;
+  --font-four: "Poppins", sans-serif;
+}
+button:hover {
+  background-color: darkcyan;
+}
+body {
+  background-color: bisque;
+  background-image: linear-gradient(180deg, skyblue, white);
+}
+.about {
+  border: 1px solid black;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 1rem;
+
+  padding: 1rem;
+}
